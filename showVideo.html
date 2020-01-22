@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="description"
+    content="MovieViwer — сервис, который не заставит тебя скучать. Он предоставляет возможность смотреть забавные видеоролики и приколы в лучшем качестве без регистрации и смс. ">
+  <meta name="keywords"
+    content="movie, MovieViwer, kidings, rofl, kek, smile, hd, приколы, смешные ролики, смотреть онлайн приколы, смотреть приколы" />
+  <title>Видео</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header class="header">
+      <div class="logo">
+        <div class="logo-text">
+          <h1><a href="/">MovieViewer</a></h1>
+          <h2>Знаешь ли ты, что такое безумие?</h2>
+        </div>
+      </div>
+      <hr>
+      <div class="menubar">
+        <ul class="menu">
+          <li><a href="/">Главная</a></li>
+          <li><a href="http://127.0.0.1:5500/rating.html">Каналы</a></li>
+          <li class="selected"><a href="http://127.0.0.1:5500/videos.html">Новые видео</a></li>
+          <li><a href="http://127.0.0.1:5500/contacts.html">Контакты</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main">
+      <aside>
+        <div class="side-content">
+          <div class="sidebar-search">
+            <form method="post" action="#" id="search-form">
+              <input type="search" name="search-field" placeholder="ваш запрос" />
+              <input type="submit" class="btn" value="поиск" />
+            </form>
+          </div>
+          <div class="sidebar-conteiner">
+            <div class="sidebar">
+              <h2>Вход</h2>
+              <form method="post" action="#" id="login">
+                <input type="text" name="login-field" placeholder="логин" />
+                <input type="password" name="password-field" placeholder="пароль" />
+                <input type="submit" class="btn" value="вход" />
+                <div class="lables-passreg-text">
+                  <span><a href="#">Забыли пароль?</a></span> | <span><a href="#">Зарегистрироваться</a></span>
+                </div>
+              </form>
+            </div>
+
+            <div class="sidebar">
+              <h2>Новости</h2>
+              <div class="sidebar-news">
+                <span>07.01.2020</span>
+                <hr>
+                <p>Всех с праздниками, весёлых приколов и вкусной кути!</p>
+                <a class="reading" href="#">читать</a>
+              </div>
+            </div>
+
+            <div class="sidebar sidebar-a">
+              <h2>Рейтинг каналов <img class="sidebar-king" src="assets\img\King.png" alt="KING"></h2>
+              <ol>
+                <li class="sidebar-first"><a href="http://127.0.0.1:5500/channel.html">Академия Cмеха</a><span
+                    class="raiting-sidebar">8.5</span></li>
+                <li class="sidebar-second"><a href="http://127.0.0.1:5500/channel.html">FunTime Приколы</a><span
+                    class="raiting-sidebar">8.1</span></li>
+                <li class="sidebar-third"><a href="http://127.0.0.1:5500/channel.html">SmileFun</a><span
+                    class="raiting-sidebar">7.9</span></li class="sidebar-third">
+                <li><a href="http://127.0.0.1:5500/channel.html">Отборочка на Ютубе</a><span
+                    class="raiting-sidebar">7.4</span></li>
+                <li><a href="http://127.0.0.1:5500/channel.html">Sorry Бабушка</a><span
+                    class="raiting-sidebar">7.1</span></li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="info-video-page">
+            <h2>ВЗРОСЛЫЙ ЮМОР</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/x8Sn3VdQBBI" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>20 МИНУТ СМЕХА ДО СЛЁЗ | ЛУЧШИЕ ПРИКОЛЫ 2020 ЯНВАРЬ | Best Coub 2020</h3>
+            <div class="info">
+              <img src="assets/img/Video/Like.png" alt="Like"><span>282</span>
+              <img src="assets/img/Video/DisLike.png" alt="DisLike"><span>87</span>
+            </div>
+            <br>
+            <div class="info-end">
+              <span>20 426 просмотров</span>
+              <hr>
+              <span n class="time-video">09.01.2020</span>
+            </div>
+            <hr>
+          </div>
+
+
+          <div class="others-video">
+            <h2>Другие видео канала:</h2>
+            <figure>
+              <a href="http://127.0.0.1:5500/showVideo.html">
+                <img src="//img.youtube.com/vi/HboVoZPy8Nc/maxresdefault.jpg" alt="video">
+                <figcaption>20 МИНУТ СМЕХА ДО СЛЁЗ | ЛУЧШИЕ ПРИКОЛЫ 2020 ЯНВАРЬ | Best Coub 2020</figcaption>
+              </a>
+            </figure>
+            <figure>
+              <a href="http://127.0.0.1:5500/showVideo.html">
+                <img src="//img.youtube.com/vi/ABkKl-7I1s0/maxresdefault.jpg" alt="video">
+                <figcaption>BEST CUBE COMPILATION #3 BEST COUB JOKES 2019 August</figcaption>
+              </a>
+            </figure>
+            <figure>
+              <a href="http://127.0.0.1:5500/showVideo.html">
+                <img src="//img.youtube.com/vi/BGSGpEY5DgU/maxresdefault.jpg" alt="video">
+                <figcaption>BEST CUBE COMPILATION #5 BEST COUB JOKES 2019 October</figcaption>
+              </a>
+            </figure>
+            <figure>
+              <a href="http://127.0.0.1:5500/showVideo.html">
+                <img src="//img.youtube.com/vi/Xu6VT6Rrr7I/maxresdefault.jpg" alt="video">
+                <figcaption>15 МИНУТ СМЕХА ДО СЛЕЗ 2020 | ЛУЧШИЕ РУССКИЕ ЛЮТЫЕ ПРИКОЛЫ | мегаржач</figcaption>
+              </a>
+            </figure>
+            <hr>
+          </div>
+
+          <div class="comments">
+            <h2>Комментарии:</h2>
+            <div class="comments-name">
+              Олег<span>11.01.2020</span>
+            </div>
+            <div class="comments-text">
+              Видео угар, я ржал как дитя, ору выше гор
+            </div>
+            <div class="comments-name">
+              Артём<span>12.01.2020</span>
+            </div>
+            <div class="comments-text">
+              Да ну, такое, у этого канала и покруче бывали
+            </div>
+          </div>
+
+          <div class="sent">
+            <form method="post" action="#" id="comments">
+              <input type="text" name="comments-name" placeholder="ваше имя">
+              <textarea name="comments-text"></textarea>
+              <br>
+              <input type="submit" value="отправить">
+            </form>
+          </div>
+      </aside>
+    </mn>
+
+    <footer class="footer">
+      <p>
+        <a href="/">Главная</a><span></span>
+        <a href="http://127.0.0.1:5500/rating.html">Каналы</a><span></span>
+        <a href="http://127.0.0.1:5500/videos.html">Новые видео</a><span></span>
+        <a href="http://127.0.0.1:5500/contacts.html">Контакты</a>
+      </p>
+      <hr>
+      <p class="footer-comp">mv-vd.com</p>
+    </footer>
+  </div>
+
+</body>
+
+</html>
